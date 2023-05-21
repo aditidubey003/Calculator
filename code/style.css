@@ -138,10 +138,12 @@ body {
 }
 
 .container {
-  background-color: #f1f4f8e9;
+  /* background-color: #393e46; */
+  background-color: #fff;
   max-width: 500px;
-  padding: 20px;
+  padding: 10px;
   margin: 30px auto;
+
 }
 
 .flex {
@@ -160,17 +162,19 @@ h1{
   background-color:#1a2639;
   color: #fff;
   border-radius: 5px;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   font-size: 50px;
   text-align: right;
   padding: 0 20px;
   line-height: 120px;
+  margin:20px auto;
 }
 
 .calculation{
   width: 460px;
   background-color:#1a2639;
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  margin: 20px auto;
   border-radius: 5px;
   color: #fff;
   padding: 10px;
@@ -203,3 +207,53 @@ h1{
   color: #fff;
   font-weight: bold;
 }
+
+
+
+/* Making it Responsive for Mobile Screen */
+
+
+@media (max-width: 480px) {
+
+  /*--[ ipad, Tablets styles]---------------------------*/
+
+   .container{
+    background-color:#393e46 ;
+  
+  } 
+  h1{
+    color: #fff;
+    text-align: center;
+  }
+  .output{
+    width: 270px;
+    height:100px ;
+    background-color: #141010;
+  }
+  .calculation{
+    width: 270px;
+    background-color: #141010;
+  }
+  .num{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: none;
+    background-color: #8e7f7f;
+    color: #fff;
+    border: none;
+  }
+  .reset, .equal{
+    border-radius: 15px;
+    width: 46%;
+  }
+  .equal{
+    background-color: #f18a36;
+  }
+} 
+
+
+
+
